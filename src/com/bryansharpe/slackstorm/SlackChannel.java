@@ -21,6 +21,7 @@ public class SlackChannel {
 
         return "{" +
                     "\"filetype\" : \"auto\"," +
+                    "\"mode\" : \"snippet\"," +
                     "\"attachments\" : [{" +
                         "\"title\" : \"" + title + "\"," +
                         "\"text\" : \"```" + message + "```\"," +
