@@ -20,6 +20,7 @@ public class SlackChannel {
         message = message.replace("\"", "\\\"");
 
         return "{" +
+                    "\"filetype\" : \"auto\"," +
                     "\"attachments\" : [{" +
                         "\"title\" : \"" + title + "\"," +
                         "\"text\" : \"```" + message + "```\"," +
